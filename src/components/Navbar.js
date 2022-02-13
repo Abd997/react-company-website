@@ -6,7 +6,7 @@ function Navbar() {
 		<Container>
 			<Wrapper>
 				<Left>
-					<Logo>Agency</Logo>
+					<Logo>Lean</Logo>
 					<Menu>
 						<MenuItem>Home</MenuItem>
 						<MenuItem>Features</MenuItem>
@@ -22,7 +22,7 @@ function Navbar() {
 }
 
 const Button = styled.button`
-	botder: 2px solid white;
+	border: 2px solid white;
 	padding: 10px 15px;
 	background-color: crimson;
 	color: white;
@@ -34,6 +34,10 @@ const Button = styled.button`
 const Menu = styled.ul`
 	display: flex;
 	list-style: none;
+
+	@media only screen and (max-width: 480px) {
+		display: none;
+	}
 `;
 const MenuItem = styled.li`
 	margin-right: 30px;

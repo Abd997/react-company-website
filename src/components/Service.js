@@ -53,6 +53,11 @@ const Wrapper = styled.div`
 	padding: 50px;
 	display: flex;
 	flex-direction: column;
+
+	@media only screen and (max-width: 480px) {
+		padding: 30px;
+		width: 90%;
+	}
 `;
 
 const Image = styled.img`
@@ -63,14 +68,26 @@ const Image = styled.img`
 
 const Left = styled.div`
 	width: 50%;
+
+	@media only screen and (max-width: 480px) {
+		display: none;
+	}
 `;
 
 const Right = styled.div`
 	width: 50%;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Container = styled.div`
 	display: flex;
+
+	@media only screen and (max-width: 480px) {
+		flex-direction: column;
+	}
 `;
 
 export default Service;

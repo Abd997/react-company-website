@@ -32,6 +32,10 @@ function Feature() {
 const Title = styled.span`
 	font-weight: bold;
 	font-size: 70px;
+
+	@media only screen and (max-width: 480px) {
+		font-size: 65px;
+	}
 `;
 const SubTitle = styled.span`
 	font-size: 24px;
@@ -66,14 +70,27 @@ const Right = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+
+	@media only screen and (max-width: 480px) {
+		width: 100%;
+	}
 `;
 
 const Left = styled.div`
 	width: 55%;
+
+	@media only screen and (max-width: 480px) {
+		display: none;
+	}
 `;
 
 const Container = styled.div`
 	display: flex;
+
+	@media only screen and (max-width: 480px) {
+		flex-direction: column;
+		padding: 40px 20px;
+	}
 `;
 
 export default Feature;
