@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/react-company-website/static/js/main.f46de215.js",
+    "static/media/creative-transparent.png": "/react-company-website/static/media/creative-transparent.4f9362997ec1cfd43573.png",
+    "static/media/app.png": "/react-company-website/static/media/app.a256bfda3cdc4757cef6.png",
+    "static/media/fiver.png": "/react-company-website/static/media/fiver.4852ee3683978ea369a7.png",
+    "index.html": "/react-company-website/index.html",
+    "main.f46de215.js.map": "/react-company-website/static/js/main.f46de215.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.f46de215.js"
+  ]
+}
